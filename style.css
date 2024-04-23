@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+:root {
+    --branco: white;
+    --cor-de-fundo: #000000;
+    --fundo-senha: #000000;
+    --fundo-texto: #000000;
+    --borda: #0075FF;
+    --roboto:'roboto','sans-serif';
+    --roboto_mono:'roboto-mono','monospace'
+}
+body {
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+}
