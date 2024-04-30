@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Jersey+20&display=swap');
+
 :root {
     --branco: white;
-    --cor-de-fundo: #000a16;
-    --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
-    --borda: #0075FF;
-    --roboto: 'roboto', sans-serif;
-    --roboto_mono: 'roboto-mono', monospace;
+    --cor-de-fundo: #000000;
+    --fundo-senha: #000000;
+    --fundo-texto: #000000;
+    --borda: #00ff22;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 * {
@@ -16,17 +22,27 @@ body {
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ff22;
 }
 
-.titulo_principal {
-
-    font-family: var(--roboto_mono);
+.titulo-principal {
+    font-family: var(--roboto-mono);
     font-size: 32px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ff22;
 }
 
-.titulo_secundario {
-
+.titulo-secundario {
     font-size: 24px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ff22;
 }
 
 .conteudo-titulo {
@@ -34,17 +50,180 @@ body {
     margin-top: 80px;
 }
 
-#conteudo-senha {
+.conteudo-senha {
     margin-top: 80px;
-    background-color: var(--fundo-senha);
+    background: var(--fundo-senha);
     padding: 24px;
-    border-bottom: 6px solid var(--borda);
+    border: 6px solid var(--borda);
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #campo-senha {
     background-color: var(--fundo-senha);
     border: none;
     color: var(--branco);
-    font-family: var(--roboto_mono);
+    font-family: var(--roboto-mono);
     font-size: 40px;
+    width: 70%;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ff22;
+}
+
+#campo-senha:focus {
+    outline: none;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro {
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro-titulo {
+    font-family: var(--roboto-mono);
+    font-size: 28px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro-senha__titulo {
+    font-size: 24px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro-coluna__senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro-senha {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro-senha-botoes {
+    display: flex;
+    justify-content: center;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parametro-senha__botao {
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ff22;
+}
+
+.parametro-senha__texto {
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label {
+    font-size: 20px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: #00ff22;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fraca {
+    width: 25%;
+    background-color: #E71B32;
+}
+
+.media {
+    background-color: #FAF408;
+    width: 50%;
+}
+
+.forte {
+    background-color: #009225;
+    width: 100%;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00ff22;
+}
+
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha {
+        flex-direction: row;
+    }
 }
