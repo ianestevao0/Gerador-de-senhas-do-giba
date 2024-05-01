@@ -53,9 +53,8 @@ body {
 
 .hacker {
 
-    text-align: 98px;
-    border: 3px #00ff22 dotted;
-    border-radius: 10px;
+    text-align: center;
+
 }
 
 
@@ -203,6 +202,7 @@ label {
     font-family: "Jersey 20", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 0px;
 }
 
 .forca {
@@ -212,21 +212,26 @@ label {
     font-family: "Jersey 20", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: 0px;
 }
 
 .fraca {
     width: 25%;
     background-color: #E71B32;
+    border-radius: 50px;
 }
 
 .media {
     background-color: #FAF408;
     width: 50%;
+    border-radius: 50px;
 }
 
 .forte {
-    background-color: #009225;
+
+    background-color: green;
     width: 100%;
+    border-radius: 50px;
 }
 
 .parametro-senha-textos {
@@ -235,10 +240,38 @@ label {
     font-family: "Jersey 20", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
+    font-size: 26px;
     border-bottom: 3px solid;
     color: #00ff22;
+    margin-top: 0px;
 }
+
+.redes-sociais-contato {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    border: #00ff22 solid;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+}
+
+.container img {
+
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
 
 
 @media screen and (min-width: 768px) {
