@@ -39,6 +39,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #00ff22;
+
 }
 
 .titulo-secundario {
@@ -253,6 +254,7 @@ label {
     margin: 50px;
     font-size: 35px;
     font-weight: 400;
+    color: #00ff22;
     margin-bottom: 0px;
     margin-left: 30px;
     border: #00ff22 solid;
@@ -260,13 +262,17 @@ label {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     align-items: center;
     font-size: 30px;
+    margin-top: 10px;
+    background: var(--fundo-senha);
+    padding: 24px;
+    border: 3px solid var(--borda);
+    border-radius: 10px;
 }
 
 .container img {
-
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 10px;
